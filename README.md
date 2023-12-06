@@ -17,7 +17,7 @@ There's a C++ version you can compile directly and compare with
 etc. have been provided.
 
 <!-- prettier-ignore-start -->
-[actions-badge]:            https://github.com/APC524-F2023/homework-6/workflows/CI/badge.svg
-[actions-link]:             https://github.com/APC524-F2023/homework-6/actions
+[actions-badge]:            https://github.com/schroeder-m/hw6/workflows/CI/badge.svg
+[actions-link]:             https://github.com/schroeder-m/hw6/actions
 
 <!-- prettier-ignore-end -->
