@@ -65,7 +65,7 @@ testpaths = [
 
 [tool.mypy]
 files = "src"
-python_version = "3.8"
+python_version = "3.12"
 warn_unused_configs = true
 strict = true
 show_error_codes = true
@@ -74,7 +74,7 @@ warn_unreachable = true
 
 
 [tool.pylint]
-py-version = "3.7"
+py-version = "3.12"
 ignore-paths= ["src/se_for_sci_hw6/_version.py"]
 extension-pkg-allow-list = ["se_for_sci_hw6._core"]
 reports.output-format = "colorized"
