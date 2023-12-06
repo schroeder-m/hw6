@@ -10,6 +10,6 @@ PYBIND11_MODULE(_core, m) {
   /// ... Fill me in!
   m.doc() = "binding HarmonicOscillator"
 
-  py::class_<HarmonicOscillator>(m,"HarmonicOscillator")
-      .def("integrate", &HarmonicOscillator::integrate)
+            py::class_<HarmonicOscillator>(m, "HarmonicOscillator")
+                .def("integrate", &HarmonicOscillator::integrate)
 }
