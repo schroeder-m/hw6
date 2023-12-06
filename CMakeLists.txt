@@ -15,7 +15,6 @@ if(DEFINED SKBUILD)
   # ... Fill me in!
   find_package(pybind11)
   pybind11_add_module(_core src/_core.cpp)
-  add_executable(_core src/_core.cpp src/integrator.hpp)
   target_include_directories(_core PRIVATE src "${eigen_SOURCE_DIR}")
   target_compile_features(_core PRIVATE cxx_std_11)
 else()
